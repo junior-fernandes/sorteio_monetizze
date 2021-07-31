@@ -1,0 +1,27 @@
+{
+    "name": "junior-fernandes/teste_monetizze",
+    "description": "Teste PHP Monetizze",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ademilson Junior",
+            "email": "ademilsonjnr@gmail.com",
+            "homepage": "https://github.com/junior-fernandes",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Boot/Helpers.php"
+        ]
+    },
+    "require":{
+        "php": "^7.1"
+    }
+}
